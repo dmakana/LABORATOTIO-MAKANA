@@ -16,7 +16,7 @@ body{
   --verde-escuro: #14424b;
   --verde: #2f9364;
   --oragem; #ff7c37;
-  --egrade-btn: linear-gradient(#fe9611, #ff5c00);
+   --degrade-btn: linear-gradient(#fe9611, #ff5c00);
   --color-p: #a1a1a1;
   --color-p-2: #868585;
 }
@@ -32,12 +32,20 @@ body{
     margin: 0 auto;
 
   }
+  .btn-gradiente{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-image:var(--degrade-btn);
+  }
 
   /*classes do site */
   nav {
     display: flex;
     justify-content: space-between;
     align-items:center ;
+    padding: 20px 0;
   }
 
   .logo a {
