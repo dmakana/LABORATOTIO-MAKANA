@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -21,4 +23,39 @@ body{
 
 .background-verde {
   background: var(--verde-escuro);
+  }
+/* Classes reutilizavel*/
+
+  .container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+
+  }
+
+  /*classes do site */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+  }
+
+  .logo a {
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+  }
+
+  .ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ul li {
+    margin: 0 35px;
+    font-size: 15px;
+  }
+
+  .ul li a {
+    color:white;
   }
