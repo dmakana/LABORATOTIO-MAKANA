@@ -99,3 +99,25 @@ main .container{
 .main-img img{
   width: 100%;
 }
+
+/*menu icon*/
+
+.menu-icon{
+  display: none;
+}
+
+
+/*responsivo*/
+
+@media (max-width:960px){
+.menu-icon{
+  display: block;
+}
+.ul {
+  position: fixed;
+  background: red;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+}
