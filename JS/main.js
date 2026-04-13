@@ -1,5 +1,8 @@
 var menuIcon = document.querySelector('.menu-icon');
+var ul = Document.querySelector('.ul');
 
 menuIcon.addEventListener('click', ()=>{
-  alert("Clicou no menu do menu");
+  if  (ul.classList.contains ('ativo')){
+
+  }
 })
